@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <script src="https://js.paystack.co/v1/inline.js"></script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WellNest: AI Journal & Mood Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#34D399',
+              'brand-secondary': '#A7F3D0',
+              'brand-dark': '#065F46',
+              'brand-light': '#ECFDF5',
+              'text-primary': '#1F2937',
+              'text-secondary': '#6B7280',
+              'background': '#F9FAFB',
+              // Dark theme colors
+              'dark-bg': '#111827',
+              'dark-surface': '#1F2937',
+              'dark-border': '#374151',
+              'dark-text-primary': '#F9FAFB',
+              'dark-text-secondary': '#9CA3AF',
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #F9FAFB; /* background */
+        color: #1F2937; /* text-primary */
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+      html.dark body {
+        background-color: #111827; /* dark-bg */
+        color: #F9FAFB; /* dark-text-primary */
+      }
+      button, a {
+        -webkit-tap-highlight-color: transparent;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script src="https://js.paystack.co/v1/inline.js"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.8.2",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.1.2",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^11.3.19"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-4TWX89ZD.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
